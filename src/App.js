@@ -18,7 +18,7 @@ function App() {
   const [choiceTwo, setChoiceTwo] = useState(null)
   const [disabled, setDisabled] = useState(false)
 
-  // suffle cards test commit asd
+  // suffle cards 3
   const suffleCards = () => {
     const suffledCards = [...cardImages, ...cardImages]
       .sort(() => Math.random() - 0.5)
