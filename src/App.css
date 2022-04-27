@@ -1,0 +1,39 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background: #c23866;
+  color: #fff;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.btn .tabs {
+  background-color: lightgreen;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  align: left;
+}
+
+.btn .tabs:hover {
+  background-color: green;
+}
